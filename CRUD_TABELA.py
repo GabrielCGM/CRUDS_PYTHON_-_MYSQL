@@ -36,7 +36,7 @@ def select(fields, tables, where=None):
     
     try:
         with conex_DB.cursor() as cursor:
-            query_my = f'SELECT  + {fields} +  FROM  + {tables}'
+            query_my = f'SELECT  {fields}  FROM  {tables}'
             
             #Usando o if caso o USER coloque algum filtro vai retornar TRUE e adicionar na QUERY.
             if (where):
