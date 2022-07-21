@@ -3,11 +3,11 @@ import pymysql.cursors
 #CONECTANDO AO MYSQL
 
 conex_DB = pymysql.connect(
-            host='localhost',
-            user='root',
-            password='samsunggbte342',
+            host='',
+            user='',
+            password='',
             port=3306,
-            db='testemy',
+            db='',
             cursorclass=pymysql.cursors.DictCursor)
 
 #Habilitando um cursor para executar comandos SQL.
